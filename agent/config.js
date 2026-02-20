@@ -33,6 +33,7 @@ const BASE_RPC = process.env.BASE_RPC || "https://mainnet.base.org";
 
 module.exports = {
   REPO_ROOT, OWNER, REPO, LLM_KEY, LLM_PROVIDER, GROQ_KEY, GH_TOKEN,
+  OPENROUTER_KEY, VENICE_KEY,
   MODEL, MAX_TOKENS, MAX_STEPS, SAFETY_MODEL,
   DAIMON_WALLET_KEY, BASE_RPC,
 };
