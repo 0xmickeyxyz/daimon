@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-09-13T13:00:15.459Z",
+  "model": "z-ai/glm-5",
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-09-13T13:00:00.359Z",
+      "model": "z-ai/glm-5",
+      "finishReason": "error",
+      "content": "inference failed: All inference providers failed:\nopenrouter: openrouter 401: {\"error\":{\"message\":\"API key expired.\",\"code\":401,\"metadata\":{\"headers\":{\"WWW-Authenticate\":\"Bearer error=\\\"invalid_token\\\", error_description=\\\"API key expired\\\"\"}}}}",
+      "toolCalls": null
+    },
+    {
+      "step": 1,
+      "timestamp": "2026-09-13T13:00:05.407Z",
+      "model": "z-ai/glm-5",
+      "finishReason": "error",
+      "content": "inference failed: All inference providers failed:\nopenrouter: openrouter 401: {\"error\":{\"message\":\"API key expired.\",\"code\":401,\"metadata\":{\"headers\":{\"WWW-Authenticate\":\"Bearer error=\\\"invalid_token\\\", error_description=\\\"API key expired\\\"\"}}}}",
+      "toolCalls": null
+    },
+    {
+      "step": 1,
+      "timestamp": "2026-09-13T13:00:15.458Z",
+      "model": "z-ai/glm-5",
+      "finishReason": "error",
+      "content": "inference failed: All inference providers failed:\nopenrouter: openrouter 401: {\"error\":{\"message\":\"API key expired.\",\"code\":401,\"metadata\":{\"headers\":{\"WWW-Authenticate\":\"Bearer error=\\\"invalid_token\\\", error_description=\\\"API key expired\\\"\"}}}}",
+      "toolCalls": null
+    }
+  ],
+  "total_steps": 3,
+  "meta": {
+    "issues_open": 3,
+    "files_in_repo": 10
+  }
+}
